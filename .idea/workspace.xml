@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="df6b9e9d-480c-45f7-8528-3c0fef46702c" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1VJam8HR5BDqMkmfIw8RhAsi00a" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.LoginTest.when_register_user_return_the_username_or_password_is_not_illegal">
+    <configuration name="LoginTest.register_user_successful" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StudentNoticeSearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.ecnu.sei.st2019.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.ecnu.sei.st2019" />
+      <option name="MAIN_CLASS_NAME" value="edu.ecnu.sei.st2019.LoginTest" />
+      <option name="METHOD_NAME" value="register_user_successful" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.should_not_login_when_the_username_is_not_exists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StudentNoticeSearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.ecnu.sei.st2019.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.ecnu.sei.st2019" />
+      <option name="MAIN_CLASS_NAME" value="edu.ecnu.sei.st2019.LoginTest" />
+      <option name="METHOD_NAME" value="should_not_login_when_the_username_is_not_exists" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.should_not_login_when_the_username_or_password_is_not_illegal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StudentNoticeSearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.ecnu.sei.st2019.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.ecnu.sei.st2019" />
+      <option name="MAIN_CLASS_NAME" value="edu.ecnu.sei.st2019.LoginTest" />
+      <option name="METHOD_NAME" value="should_not_login_when_the_username_or_password_is_not_illegal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.should_not_register_when_the_password_is_wrong" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StudentNoticeSearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.ecnu.sei.st2019.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.ecnu.sei.st2019" />
+      <option name="MAIN_CLASS_NAME" value="edu.ecnu.sei.st2019.LoginTest" />
+      <option name="METHOD_NAME" value="should_not_register_when_the_password_is_wrong" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.when_register_user_return_the_username_or_password_is_not_illegal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StudentNoticeSearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.ecnu.sei.st2019.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.ecnu.sei.st2019" />
+      <option name="MAIN_CLASS_NAME" value="edu.ecnu.sei.st2019.LoginTest" />
+      <option name="METHOD_NAME" value="when_register_user_return_the_username_or_password_is_not_illegal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LoginTest.when_register_user_return_the_username_or_password_is_not_illegal" />
+        <item itemvalue="JUnit.LoginTest.register_user_successful" />
+        <item itemvalue="JUnit.LoginTest.should_not_login_when_the_username_or_password_is_not_illegal" />
+        <item itemvalue="JUnit.LoginTest.should_not_login_when_the_username_is_not_exists" />
+        <item itemvalue="JUnit.LoginTest.should_not_register_when_the_password_is_wrong" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df6b9e9d-480c-45f7-8528-3c0fef46702c" name="Default Changelist" comment="" />
+      <created>1576973807340</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576973807340</updated>
+      <workItem from="1576973810218" duration="1501000" />
+      <workItem from="1577032170498" duration="362000" />
+      <workItem from="1577085551700" duration="8358000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1237" height="214" key="GridCell.Tab.0.bottom" timestamp="1577118498415">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="214" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1577118498415" />
+    <state width="1237" height="214" key="GridCell.Tab.0.center" timestamp="1577118498415">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="214" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1577118498415" />
+    <state width="1237" height="214" key="GridCell.Tab.0.left" timestamp="1577118498414">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="214" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1577118498414" />
+    <state width="1237" height="214" key="GridCell.Tab.0.right" timestamp="1577118498415">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="214" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1577118498415" />
+  </component>
+</project>
