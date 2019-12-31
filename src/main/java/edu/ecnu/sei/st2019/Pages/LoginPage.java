@@ -41,6 +41,11 @@ public class LoginPage extends BasePage {
         driver.findElement(By.cssSelector(".el-row:nth-child(2) input")).sendKeys(password);
         return this;
     }
+    public LoginPage  confirmPassword(String password){
+        driver.findElement(By.cssSelector(".el-row:nth-child(3) input")).click();
+        driver.findElement(By.cssSelector(".el-row:nth-child(3) input")).sendKeys(password);
+        return this;
+    }
     public LoginPage close(){
         driver.close();
         return this;
@@ -77,6 +82,7 @@ public class LoginPage extends BasePage {
         return this;
 
     }
+
 
 
 }

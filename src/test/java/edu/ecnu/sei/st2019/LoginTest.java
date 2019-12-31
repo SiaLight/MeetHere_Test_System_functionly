@@ -102,8 +102,10 @@ public class LoginTest  extends BaseTest {
     public void register_user_successful(){
         loginPage.goLoginPage()
                 .putHandler("window_handles")
+                .clickRegister()
                 .inputName("zhang123")
                 .inputPassword("123")
+                .confirmPassword("123")
                 .clickRegister()
                 .checkAlert("注册成功")
                 .close();
@@ -112,30 +114,63 @@ public class LoginTest  extends BaseTest {
     public void when_register_user_return_the_user_has_exists(){
         loginPage.goLoginPage()
                 .putHandler("window_handles")
+                .clickRegister()
+                .inputName("zhang123")
+                .inputPassword("123")
+                .confirmPassword("123")
+                .clickRegister()
+                .checkAlert("用户名已存在")
+                .close();
+    }
+
+    @Test
+    public void should_register_failed_when_the_name_or_password_or_confirmPassword_is_null(){
+        loginPage.goLoginPage()
+                .putHandler("window_handles")
+                .clickRegister()
                 .inputName("zhang123")
                 .inputPassword("123")
                 .clickRegister()
-                .checkAlert("用户名已存在")
+                .checkAlert("请输入名称或密码。")
+                .close();
+    }
+
+    @Test
+    public void should_register_failed_when_password_or_confirmPassword_is_not_same(){
+        loginPage.goLoginPage()
+                .putHandler("window_handles")
+                .clickRegister()
+                .inputName("zhang1233")
+                .inputPassword("123")
+                .confirmPassword("12")
+                .clickRegister()
+                .checkAlert("两次输入密码不一致。")
                 .close();
     }
     @Test
     public void when_register_user_return_the_username_or_password_is_not_illegal(){
         loginPage.goLoginPage()
                 .putHandler("window_handles")
-                .inputName("zhang")
-                .inputPassword("1")
                 .clickRegister()
-                .checkAlert("用户名或密码不合法")
+                .inputName("zhang")
+                .confirmPassword("12")
+                .inputPassword("12")
+                .clickRegister()
+                .checkAlert("用户名已存在")
                 .clearInput(".el-row:nth-child(1) input")
                 .inputName("z")
                 .clearInput(".el-row:nth-child(2) input")
                 .inputPassword("123")
+                .clearInput(".el-row:nth-child(3) input")
+                .confirmPassword("123")
                 .clickRegister()
                 .checkAlert("用户名或密码不合法")
                 .clearInput(".el-row:nth-child(1) input")
                 .inputName("z")
                 .clearInput(".el-row:nth-child(2) input")
                 .inputPassword("1")
+                .clearInput(".el-row:nth-child(3) input")
+                .confirmPassword("1")
                 .clickRegister()
                 .checkAlert("用户名或密码不合法")
                 .close();

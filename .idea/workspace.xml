@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df6b9e9d-480c-45f7-8528-3c0fef46702c" name="Default Changelist" comment="" />
+    <list default="true" id="df6b9e9d-480c-45f7-8528-3c0fef46702c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ecnu/sei/st2019/Pages/InfoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ecnu/sei/st2019/Pages/SitePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ecnu/sei/st2019/Pages/StadiumDetailPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ecnu/sei/st2019/Pages/StadiumPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ecnu/sei/st2019/Pages/seeNewsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/ecnu/sei/st2019/CommentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/ecnu/sei/st2019/InfoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/ecnu/sei/st2019/SiteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/ecnu/sei/st2019/SiyeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/ecnu/sei/st2019/StadiumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/ecnu/sei/st2019/seeNewsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/ecnu/sei/st2019/userIndexTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ecnu/sei/st2019/Pages/IndexPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ecnu/sei/st2019/Pages/IndexPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ecnu/sei/st2019/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ecnu/sei/st2019/Pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/ecnu/sei/st2019/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/ecnu/sei/st2019/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/ecnu/sei/st2019/RegiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/ecnu/sei/st2019/Pages/IndexPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/ecnu/sei/st2019/Pages/IndexPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/ecnu/sei/st2019/Pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/ecnu/sei/st2019/Pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RegiTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/ecnu/sei/st2019/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/ecnu/sei/st2019/LoginTest.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +42,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -30,6 +56,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1VJam8HR5BDqMkmfIw8RhAsi00a" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="flattenPackages" value="true" />
@@ -37,7 +66,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -61,8 +92,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LoginTest.when_register_user_return_the_username_or_password_is_not_illegal">
-    <configuration name="LoginTest.register_user_successful" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SiteTest.should_show_comment_when_the_click_loader_more">
+    <configuration name="SiteTest.should_order_failed_when_not_choose_time" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StudentNoticeSearch" />
       <extension name="coverage">
         <pattern>
@@ -71,14 +102,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.ecnu.sei.st2019" />
-      <option name="MAIN_CLASS_NAME" value="edu.ecnu.sei.st2019.LoginTest" />
-      <option name="METHOD_NAME" value="register_user_successful" />
+      <option name="MAIN_CLASS_NAME" value="edu.ecnu.sei.st2019.SiteTest" />
+      <option name="METHOD_NAME" value="should_order_failed_when_not_choose_time" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.should_not_login_when_the_username_is_not_exists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SiteTest.should_order_failed_when_not_logged_in" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StudentNoticeSearch" />
       <extension name="coverage">
         <pattern>
@@ -87,14 +118,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.ecnu.sei.st2019" />
-      <option name="MAIN_CLASS_NAME" value="edu.ecnu.sei.st2019.LoginTest" />
-      <option name="METHOD_NAME" value="should_not_login_when_the_username_is_not_exists" />
+      <option name="MAIN_CLASS_NAME" value="edu.ecnu.sei.st2019.SiteTest" />
+      <option name="METHOD_NAME" value="should_order_failed_when_not_logged_in" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.should_not_login_when_the_username_or_password_is_not_illegal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SiteTest.should_pubsh_comment_failed_when_not_logged_in" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StudentNoticeSearch" />
       <extension name="coverage">
         <pattern>
@@ -103,14 +134,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.ecnu.sei.st2019" />
-      <option name="MAIN_CLASS_NAME" value="edu.ecnu.sei.st2019.LoginTest" />
-      <option name="METHOD_NAME" value="should_not_login_when_the_username_or_password_is_not_illegal" />
+      <option name="MAIN_CLASS_NAME" value="edu.ecnu.sei.st2019.SiteTest" />
+      <option name="METHOD_NAME" value="should_pubsh_comment_failed_when_not_logged_in" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.should_not_register_when_the_password_is_wrong" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SiteTest.should_pubsh_comment_failed_when_the_comment_is_null" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StudentNoticeSearch" />
       <extension name="coverage">
         <pattern>
@@ -119,14 +150,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.ecnu.sei.st2019" />
-      <option name="MAIN_CLASS_NAME" value="edu.ecnu.sei.st2019.LoginTest" />
-      <option name="METHOD_NAME" value="should_not_register_when_the_password_is_wrong" />
+      <option name="MAIN_CLASS_NAME" value="edu.ecnu.sei.st2019.SiteTest" />
+      <option name="METHOD_NAME" value="should_pubsh_comment_failed_when_the_comment_is_null" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.when_register_user_return_the_username_or_password_is_not_illegal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SiteTest.should_show_comment_when_the_click_loader_more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StudentNoticeSearch" />
       <extension name="coverage">
         <pattern>
@@ -135,8 +166,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.ecnu.sei.st2019" />
-      <option name="MAIN_CLASS_NAME" value="edu.ecnu.sei.st2019.LoginTest" />
-      <option name="METHOD_NAME" value="when_register_user_return_the_username_or_password_is_not_illegal" />
+      <option name="MAIN_CLASS_NAME" value="edu.ecnu.sei.st2019.SiteTest" />
+      <option name="METHOD_NAME" value="should_show_comment_when_the_click_loader_more" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LoginTest.when_register_user_return_the_username_or_password_is_not_illegal" />
-        <item itemvalue="JUnit.LoginTest.register_user_successful" />
-        <item itemvalue="JUnit.LoginTest.should_not_login_when_the_username_or_password_is_not_illegal" />
-        <item itemvalue="JUnit.LoginTest.should_not_login_when_the_username_is_not_exists" />
-        <item itemvalue="JUnit.LoginTest.should_not_register_when_the_password_is_wrong" />
+        <item itemvalue="JUnit.SiteTest.should_show_comment_when_the_click_loader_more" />
+        <item itemvalue="JUnit.SiteTest.should_pubsh_comment_failed_when_the_comment_is_null" />
+        <item itemvalue="JUnit.SiteTest.should_pubsh_comment_failed_when_not_logged_in" />
+        <item itemvalue="JUnit.SiteTest.should_order_failed_when_not_logged_in" />
+        <item itemvalue="JUnit.SiteTest.should_order_failed_when_not_choose_time" />
       </list>
     </recent_temporary>
   </component>
@@ -171,6 +202,20 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state width="1237" height="214" key="GridCell.Tab.0.bottom" timestamp="1577118498415">
       <screen x="0" y="0" width="1280" height="720" />
@@ -188,5 +233,16 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="1237" height="214" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1577118498415" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/edu/ecnu/sei/st2019/StadiumTest.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
