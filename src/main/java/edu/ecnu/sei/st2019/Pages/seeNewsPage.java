@@ -22,7 +22,6 @@ public class seeNewsPage extends  BasePage{
     }
 
     public  seeNewsPage assertUrl(String url){
-
         assertThat(driver.getCurrentUrl(),is(url));
         return this;
     }
@@ -30,6 +29,5 @@ public class seeNewsPage extends  BasePage{
     public  seeNewsPage clickNews(String band){
         driver.findElement(By.cssSelector(band)).click();
         return this;
-
     }
 }

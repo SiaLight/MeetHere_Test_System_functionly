@@ -28,7 +28,6 @@ public class IndexPage extends  BasePage {
     public  IndexPage changeMenu(String menu){
         driver.findElement(By.cssSelector(menu)).click();
         return this;
-
     }
 
     public IndexPage assertUrl(String url){
