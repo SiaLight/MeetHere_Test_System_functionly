@@ -10,6 +10,7 @@ public class SiteTest extends  BaseTest {
     StadiumPage stadiumPage = new StadiumPage();
     StadiumDetailPage stadiumDetailPage = new StadiumDetailPage();
     SitePage sitePage = new SitePage();
+    LoginPage loginPage = new LoginPage();
 
     //在未登录情况下
     @Test
@@ -23,12 +24,12 @@ public class SiteTest extends  BaseTest {
     public void should_order_failed_when_not_logged_in(){
         sitePage.GoSiteDetail()
                 .clickSelector(".el-date-editor--date > .el-input__inner")
-                .clickSelector(".available span")
-                .clickSelector(".el-date-editor:nth-child(2) > .el-input__inner")
-                .clickSelector(".time-select-item:nth-child(1)")
-                .clickSelector(".el-date-editor:nth-child(3) > .el-input__inner")
-                .clickSelector(".el-picker-panel:nth-child(8) .time-select-item:nth-child(5)")
-                .clickSelector(".el-button:nth-child(5)")
+                .clickByPath("//td[4]/div/span")
+                .clickById("startTime")
+                .clickByPath("//div[3]/div/div/div/div[2]")
+                .clickById("endTime")
+                .clickByPath("//div[4]/div/div/div/div[3]")
+                .clickSelector(".el-button:nth-child(5) > span")
                 .checkAlert("请先登录。");
     }
 
@@ -58,19 +59,126 @@ public class SiteTest extends  BaseTest {
 
     @Test
     public void should_order_failed_when_Appointment_time_conflict_under_login(){
+        loginPage.goLoginPage()
+                .putHandler("window_handles")
+                .inputName("zh")
+                .inputPassword("123456")
+                .clickLoginButton()
+                .putWin("win4185")
+                .putHandler("root")
+                .switchToWin("win4185");
+
+        indexPage.putHandler("window_handles")
+                .changeMenu(".is-active")
+                .putWin("win1")
+                .putHandler("index")
+                .switchToWin("win1");
+
+        stadiumPage.assertUrl("http://localhost:8080/index/homePage")
+                .clickStadium(".el-col:nth-child(1) .name")
+                .putWin("win2")
+                .putHandler("stadium")
+                .switchToWin("win2");
+
+        stadiumDetailPage.assertUrl("http://localhost:8080/index/stadiumDetail/1")
+                .click(".el-col:nth-child(1) .name")
+                .putWin("win3")
+                .putHandler("site")
+                .switchToWin("win3");
+
+        sitePage.assertUrl("http://localhost:8080/index/siteDetail/2")
+                .clickSelector(".el-date-editor--date > .el-input__inner")
+                .clickByPath("//td[4]/div/span")
+                .clickById("startTime")
+                .clickByPath("//div[3]/div/div/div/div[2]")
+                .clickById("endTime")
+                .clickByPath("//div[4]/div/div/div/div[3]")
+//                .clickSelector(".el-picker-panel:nth-child(8) .time-select-item:nth-child(3)")
+                .clickSelector(".el-button:nth-child(5) > span")
+                .checkAlert("预约时间冲突")
+                .closePage("win3");
 
 
     }
 
     @Test
     public void should_order_successfully_when_all_contents_correct_under_login(){
+        loginPage.goLoginPage()
+                .putHandler("window_handles")
+                .inputName("zh")
+                .inputPassword("123456")
+                .clickLoginButton()
+                .putWin("win4185")
+                .putHandler("root")
+                .switchToWin("win4185");
+
+        indexPage.putHandler("window_handles")
+                .changeMenu(".is-active")
+                .putWin("win1")
+                .putHandler("index")
+                .switchToWin("win1");
+
+        stadiumPage.assertUrl("http://localhost:8080/index/homePage")
+                .clickStadium(".el-col:nth-child(1) .name")
+                .putWin("win2")
+                .putHandler("stadium")
+                .switchToWin("win2");
+
+        stadiumDetailPage.assertUrl("http://localhost:8080/index/stadiumDetail/1")
+                .click(".el-col:nth-child(1) .name")
+                .putWin("win3")
+                .putHandler("site")
+                .switchToWin("win3");
+
+        sitePage.assertUrl("http://localhost:8080/index/siteDetail/2")
+                .clickSelector(".el-date-editor--date > .el-input__inner")
+                .clickByPath("//td[4]/div/span")
+                .clickById("startTime")
+                .clickByPath("//div[3]/div/div/div/div[2]")
+                .clickById("endTime")
+                .clickByPath("//div[4]/div/div/div/div[3]")
+                .clickSelector(".el-button:nth-child(5) > span")
+                .checkAlert("预约成功")
+                .closePage("win3");
 
 
     }
 
     @Test
     public void should_comment_successfully_when_the_content_is_not_null_under_login(){
+        loginPage.goLoginPage()
+                .putHandler("window_handles")
+                .inputName("zh")
+                .inputPassword("123456")
+                .clickLoginButton()
+                .putWin("win4185")
+                .putHandler("root")
+                .switchToWin("win4185");
 
+        indexPage.putHandler("window_handles")
+                .changeMenu(".is-active")
+                .putWin("win1")
+                .putHandler("index")
+                .switchToWin("win1");
+
+        stadiumPage.assertUrl("http://localhost:8080/index/homePage")
+                .clickStadium(".el-col:nth-child(1) .name")
+                .putWin("win2")
+                .putHandler("stadium")
+                .switchToWin("win2");
+
+        stadiumDetailPage.assertUrl("http://localhost:8080/index/stadiumDetail/1")
+                .click(".el-col:nth-child(1) .name")
+                .putWin("win3")
+                .putHandler("site")
+                .switchToWin("win3");
+
+        sitePage.assertUrl("http://localhost:8080/index/siteDetail/2")
+                .clickSelector(".el-textarea__inner")
+                .input(".el-textarea__inner","这是一个评论")
+                .clickSelector(".el-button:nth-child(3) > span")
+                .checkAlert("评论成功")
+                .closePage("win3");
 
     }
 }

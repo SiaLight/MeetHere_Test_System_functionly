@@ -2,28 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df6b9e9d-480c-45f7-8528-3c0fef46702c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ecnu/sei/st2019/Pages/InfoPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ecnu/sei/st2019/Pages/SitePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ecnu/sei/st2019/Pages/StadiumDetailPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ecnu/sei/st2019/Pages/StadiumPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ecnu/sei/st2019/Pages/seeNewsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/ecnu/sei/st2019/CommentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/ecnu/sei/st2019/InfoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/ecnu/sei/st2019/SiteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/ecnu/sei/st2019/SiyeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/ecnu/sei/st2019/StadiumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/ecnu/sei/st2019/seeNewsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/ecnu/sei/st2019/userIndexTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ecnu/sei/st2019/Pages/UserOrderPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/ecnu/sei/st2019/ChangeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/ecnu/sei/st2019/UserOrderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ecnu/sei/st2019/Pages/IndexPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ecnu/sei/st2019/Pages/IndexPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ecnu/sei/st2019/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ecnu/sei/st2019/Pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/ecnu/sei/st2019/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/ecnu/sei/st2019/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/ecnu/sei/st2019/RegiTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/ecnu/sei/st2019/Pages/IndexPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/ecnu/sei/st2019/Pages/IndexPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/ecnu/sei/st2019/Pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/ecnu/sei/st2019/Pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RegiTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/ecnu/sei/st2019/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/ecnu/sei/st2019/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ecnu/sei/st2019/Pages/SitePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ecnu/sei/st2019/Pages/SitePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/ecnu/sei/st2019/SiteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/ecnu/sei/st2019/SiteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/ecnu/sei/st2019/SiyeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/ecnu/sei/st2019/OrdersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/ecnu/sei/st2019/Pages/SitePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/ecnu/sei/st2019/Pages/SitePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SiyeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/ecnu/sei/st2019/CommentTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/ecnu/sei/st2019/SiteTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/ecnu/sei/st2019/SiteTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,8 +81,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SiteTest.should_show_comment_when_the_click_loader_more">
-    <configuration name="SiteTest.should_order_failed_when_not_choose_time" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UserOrderTest.should_cancel_change_unchecked_order_failed_when_click_cancel">
+    <configuration name="UserOrderTest.should_cancel_change_unchecked_order_failed_when_click_cancel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StudentNoticeSearch" />
       <extension name="coverage">
         <pattern>
@@ -102,14 +91,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.ecnu.sei.st2019" />
-      <option name="MAIN_CLASS_NAME" value="edu.ecnu.sei.st2019.SiteTest" />
-      <option name="METHOD_NAME" value="should_order_failed_when_not_choose_time" />
+      <option name="MAIN_CLASS_NAME" value="edu.ecnu.sei.st2019.UserOrderTest" />
+      <option name="METHOD_NAME" value="should_cancel_change_unchecked_order_failed_when_click_cancel" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SiteTest.should_order_failed_when_not_logged_in" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserOrderTest.should_change_checked_order_successful_when_click_OK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StudentNoticeSearch" />
       <extension name="coverage">
         <pattern>
@@ -118,14 +107,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.ecnu.sei.st2019" />
-      <option name="MAIN_CLASS_NAME" value="edu.ecnu.sei.st2019.SiteTest" />
-      <option name="METHOD_NAME" value="should_order_failed_when_not_logged_in" />
+      <option name="MAIN_CLASS_NAME" value="edu.ecnu.sei.st2019.UserOrderTest" />
+      <option name="METHOD_NAME" value="should_change_checked_order_successful_when_click_OK" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SiteTest.should_pubsh_comment_failed_when_not_logged_in" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserOrderTest.should_change_unchecked_order_failed_when_click_OK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StudentNoticeSearch" />
       <extension name="coverage">
         <pattern>
@@ -134,14 +123,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.ecnu.sei.st2019" />
-      <option name="MAIN_CLASS_NAME" value="edu.ecnu.sei.st2019.SiteTest" />
-      <option name="METHOD_NAME" value="should_pubsh_comment_failed_when_not_logged_in" />
+      <option name="MAIN_CLASS_NAME" value="edu.ecnu.sei.st2019.UserOrderTest" />
+      <option name="METHOD_NAME" value="should_change_unchecked_order_failed_when_click_OK" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SiteTest.should_pubsh_comment_failed_when_the_comment_is_null" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserOrderTest.should_change_unchecked_order_successful_when_click_OK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StudentNoticeSearch" />
       <extension name="coverage">
         <pattern>
@@ -150,14 +139,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.ecnu.sei.st2019" />
-      <option name="MAIN_CLASS_NAME" value="edu.ecnu.sei.st2019.SiteTest" />
-      <option name="METHOD_NAME" value="should_pubsh_comment_failed_when_the_comment_is_null" />
+      <option name="MAIN_CLASS_NAME" value="edu.ecnu.sei.st2019.UserOrderTest" />
+      <option name="METHOD_NAME" value="should_change_unchecked_order_successful_when_click_OK" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SiteTest.should_show_comment_when_the_click_loader_more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserOrderTest.should_delete_have_checked_order_successful_when_click_cancel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StudentNoticeSearch" />
       <extension name="coverage">
         <pattern>
@@ -166,8 +155,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.ecnu.sei.st2019" />
-      <option name="MAIN_CLASS_NAME" value="edu.ecnu.sei.st2019.SiteTest" />
-      <option name="METHOD_NAME" value="should_show_comment_when_the_click_loader_more" />
+      <option name="MAIN_CLASS_NAME" value="edu.ecnu.sei.st2019.UserOrderTest" />
+      <option name="METHOD_NAME" value="should_delete_have_checked_order_successful_when_click_cancel" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -175,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SiteTest.should_show_comment_when_the_click_loader_more" />
-        <item itemvalue="JUnit.SiteTest.should_pubsh_comment_failed_when_the_comment_is_null" />
-        <item itemvalue="JUnit.SiteTest.should_pubsh_comment_failed_when_not_logged_in" />
-        <item itemvalue="JUnit.SiteTest.should_order_failed_when_not_logged_in" />
-        <item itemvalue="JUnit.SiteTest.should_order_failed_when_not_choose_time" />
+        <item itemvalue="JUnit.UserOrderTest.should_cancel_change_unchecked_order_failed_when_click_cancel" />
+        <item itemvalue="JUnit.UserOrderTest.should_change_unchecked_order_failed_when_click_OK" />
+        <item itemvalue="JUnit.UserOrderTest.should_change_checked_order_successful_when_click_OK" />
+        <item itemvalue="JUnit.UserOrderTest.should_change_unchecked_order_successful_when_click_OK" />
+        <item itemvalue="JUnit.UserOrderTest.should_delete_have_checked_order_successful_when_click_cancel" />
       </list>
     </recent_temporary>
   </component>

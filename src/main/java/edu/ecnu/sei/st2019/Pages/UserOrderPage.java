@@ -8,39 +8,39 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-public class SitePage extends  BasePage {
+public class UserOrderPage extends  BasePage {
 
-    public SitePage putHandler(String handlers){
+    public UserOrderPage putHandler(String handlers){
         super.putHandler(handlers);
         return this;
     }
 
-    public SitePage switchToWin(String win){
+    public UserOrderPage switchToWin(String win){
         super.switchToWin(win);
         return this;
     }
 
-    public SitePage putWin(String win){
+    public UserOrderPage putWin(String win){
         super.putWin(win);
         return this;
     }
-    public SitePage clickSelector(String tag){
+    public UserOrderPage clickSelector(String tag){
         driver.findElement(By.cssSelector(tag)).click();
         return this;
 
     }
 
-    public  SitePage assertUrl(String url){
+    public  UserOrderPage assertUrl(String url){
         assertThat(driver.getCurrentUrl(),is(url));
         return this;
 
     }
 
-    public  SitePage GoSiteDetail(){
+    public  UserOrderPage GoSiteDetail(){
         driver.get("http://localhost:8080/index/siteDetail/2");
         return this;
     }
-    public  SitePage checkAlert(String value){
+    public  UserOrderPage checkAlert(String value){
         WebDriverWait wait = new WebDriverWait(driver, 5);
         Alert a= wait.until(ExpectedConditions.alertIsPresent());
         assertThat(a.getText(), is(value));
@@ -48,17 +48,17 @@ public class SitePage extends  BasePage {
         return this;
     }
 
-    public  SitePage input(String cs,String text){
+    public  UserOrderPage input(String cs,String text){
         driver.findElement(By.cssSelector(cs)).sendKeys(text);
         return this;
 
     }
 
-    public SitePage clickByPath(String path){
+    public UserOrderPage clickByPath(String path){
         driver.findElement(By.xpath(path)).click();
         return this;
     }
-    public SitePage clickById(String id){
+    public UserOrderPage clickById(String id){
         driver.findElement(By.id(id)).click();
         return this;
     }
